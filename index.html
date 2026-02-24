@@ -21,8 +21,10 @@
 
   .canvas-wrap {
     position: relative;
-    width: 900px;
-    height: 900px;
+    width: min(900px, 100vw - 40px);
+    height: min(900px, 100vw - 40px);
+    min-width: 320px;
+    min-height: 320px;
   }
 
   .title-block {
